@@ -12,19 +12,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './pages/home/home.component';
-import { CityComponent } from './pages/city/city.component';
+
 import { MatDialogModule } from '@angular/material/dialog';
 import { PopupComponent } from './pages/actor/popup/popup.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { PopupfilmComponent } from './film/popupfilm/popupfilm.component';
+
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { MatIconModule } from '@angular/material/icon';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { PagesComponent } from './filmcomponent/pages/pages.component';
-import { ActorfilmComponent } from './pages/actorfilm/actorfilm.component';
+
+
 
 
 @NgModule({
@@ -36,11 +36,9 @@ import { ActorfilmComponent } from './pages/actorfilm/actorfilm.component';
     ActorComponent,
     FilmComponent,
     HomeComponent,
-    CityComponent,
     PopupComponent,
-    PopupfilmComponent,
-    PagesComponent,
-    ActorfilmComponent,
+ 
+
   ],
   imports: [
     BrowserModule,

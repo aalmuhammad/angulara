@@ -4,8 +4,8 @@ import { TemplateComponent } from './template/template.component';
 import { ActorComponent } from './pages/actor/actor.component';
 import { FilmComponent } from './pages/film/film.component';
 import { HomeComponent } from './pages/home/home.component';
-import { CityComponent } from './pages/city/city.component';
-import { ActorfilmComponent } from './pages/actorfilm/actorfilm.component';
+
+
 
 const routes: Routes = [{
   path: '',
@@ -22,14 +22,8 @@ const routes: Routes = [{
     path: 'home',
     component: HomeComponent
   },
-  {
-    path: 'city',
-    component: CityComponent
-  },
-  {
-    path: 'actorfilm',
-    component: ActorfilmComponent
-  },
+
+ 
 ]
 },
 {
