@@ -97,7 +97,10 @@ export class ActorComponent implements OnInit {
   }
 
   deleteActor(actorId: number) {
-    this.apiService.deleteActor(actorId).subscribe(
+    const deletedata = {
+      status:0
+    }
+    this.apiService.softDelete(actorId, deletedata).subscribe(
       (response) => {
         console.log('Data deleted successfully: ', response);
         this.getAllActors();
